@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naukri.com</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="containernav">
+                <img src="image/naukri_Logo.png" alt="" id="naukri">
+                <img src="image/login.png" alt="" id="login">
+            </div>
+        </nav>
+    </header>
+
+    <h1>Register <span> Now </span></h1>
+    <div class="container">
+
+        <p class="name">Full Name: <span><input type="text" id="inputname" placeholder="Robert Dwney Jr."></span></p>
+        <p class="error" id="nameerror"></p>
+        
+        <p class="mobile">Mobile No: <span><input type="number" id="inputnumber" name="username" maxlength="10" placeholder="+91 - 82707 06893"></span>
+        </p>
+        <p class="error" id="mobileerror"></p>
+
+        <p class="email">Email Id: <span><input type="email" name="email" id="inputemail"
+                    placeholder="robertdwney@Jrmail.com" required="Email"></span></p>
+        <p class="error" id="emailerror"></p>
+        
+        <p class="password">Password <span><input type="password" id="inputpassword" placeholder="Password"></span></p>
+        <p class="error" id="passworderror"></p>
+        
+        <p class="birth">Date of Birth<span><input type="date" name="" id="DOB"></span></p>
+        <p class="error" id="doberror"></p>
+        
+        <p class="gender">Gender<span><input value="male" name="gender" type="radio" id="male">Male <input value="female" type="radio" name="gender"
+                id="female" >Female</span></p>    
+        <p class="error" id="gendererror"></p>
+        
+        <p class="Exfre">Experience / Fresher ?<span><input value="experience" name="exfre" type="radio" id="experience">Experience <input
+                    value="fresher" type="radio" name="exfre" id="fresher">Fresher</span></p>
+        <p class="error" id="exfreerror"></p>
+        
+        <div class="buttons">
+            <button type="reset" id="cancel"> Cancel</button>
+            <button class="submit" id="submit">Submit</button>
+
+        </div>
+
+    </div>
+
+
+    <div class="modal" id="mdls">
+        <div class="tickicon">
+            <img src="image/tick.png" alt="" class="tickimg">
+        </div>
+        <p class="success">Submitted Successfully</p>
+        <button id="ok">OK</button> 
+    </div>
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
