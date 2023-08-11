@@ -236,7 +236,7 @@ button{
 
 .success{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #ok{
@@ -255,12 +255,7 @@ button{
     margin-top: 5px ;
 }
 
-@media (max-width:1078px){
-    .success{
-        text-align: center;
-        font-size: 1.8rem;
-    }
-}
+
 @media (max-width:985px){
     .success{
         text-align: center;
@@ -276,7 +271,7 @@ button{
 @media (max-width:707px){
     .success{
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 @media (max-width:1024px){
@@ -292,6 +287,13 @@ button{
         width: 60%;
       
     }
+
+    .modal {
+      
+        width: 50%;
+        left: 25%
+      
+    }
 }
 @media (max-width:641px){
     .container {
@@ -305,14 +307,14 @@ button{
     }
 }
 
-@media (max-width:568px){
+/* @media (max-width:568px){
     .modal {
       
         width: 60%;
-        left: 25%
+        left: 20%
       
     }
-}
+} */
 
 @media (max-width:510px){
     .container {
@@ -343,8 +345,8 @@ button{
 @media (max-width:379px){
     .modal {
       
-        width: 80%;
-        left: 10%;
+        width: 70%;
+        left: 15%;
       
     }
 }
@@ -356,3 +358,12 @@ button{
       
     }
 }
+@media (max-width:325px){
+    .modal {
+      
+        width: 80%;
+        left: 10%;
+      
+    }
+}
+
